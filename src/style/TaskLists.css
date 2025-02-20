@@ -1,0 +1,56 @@
+.task-container {
+  margin-left: 2%;
+  margin-top: 15px;
+  border-radius: 14px;
+  padding: 10px 20px;
+}
+
+.task-container::-webkit-scrollbar {
+  display: none;
+}
+
+.task-container .task-box {
+  border-radius: 14px;
+  overflow-x: auto;
+  padding: 30px;
+}
+
+.task-container .task-deadline {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+}
+
+.task-container .task-details {
+  text-align: justify;
+  padding-right: 10px;
+}
+
+.task-container .task-box::-webkit-scrollbar {
+  display: none;
+}
+
+.task-container .task-box .options {
+  margin-top: 20px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-container .task-box .options button {
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.completed {
+  width: 100%;
+}

@@ -1,0 +1,37 @@
+.left {
+  background-color: orange;
+  color: green;
+  font-weight: bold;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.right {
+  padding: 80px 40px;
+}
+
+.right .username label {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.right .password label {
+  padding: 10px 22px;
+  font-size: 20px;
+}
+
+.right div input {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  width: 300px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.login-btn .login {
+  padding: 10px 50px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.employee-tasks-list {
+  margin-top: 90px;
+  margin-left: 5%;
+  border-radius: 14px;
+  color: white;
+  box-shadow: 0px 0px 15px 5px rgb(45, 44, 44);
+  font-size: 18px;
+}
+
+.employee-tasks-list div:nth-child(even) {
+  background-color: #363636;
+}
+
+.employee-tasks-list::-webkit-scrollbar {
+  display: none;
+}
+
+.em-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.em-box span {
+  width: 25%;
+  gap: 10px;
+  text-align: center;
+}
+/* 
+.em-box span:nth-child(even) {
+  background-color: #363636;
+} */

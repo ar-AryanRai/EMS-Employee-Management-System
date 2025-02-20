@@ -1,0 +1,54 @@
+.task-box-container {
+  margin-left: 5%;
+  margin-top: 30px;
+  border-radius: 14px;
+  font-size: 17px;
+  color: white;
+  box-shadow: 0px 0px 15px 5px rgb(45, 44, 44);
+}
+
+.right-side,
+.left-side {
+  padding: 50px;
+}
+
+.task-box-container .left-side div {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+/* 
+.task-box-container .left-side div label{
+  width: 300px;
+} */
+
+.task-box-container .left-side div input,
+.task-box-container .right-side textarea {
+  width: 70%;
+  border: 2px solid white;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+
+.task-box-container .right-side textarea{
+  height: 200px;
+}
+
+.task-box-container .left-side div input::placeholder,
+.task-box-container .right-side textarea::placeholder {
+  color: gray;
+}
+
+.task-box-container .right-side label {
+  margin-top: 20px;
+}
+
+.task-box-container .left-side div input::placeholder {
+  color: gray;
+}
+
+.add-btn{
+  padding: 5px 50px;
+}

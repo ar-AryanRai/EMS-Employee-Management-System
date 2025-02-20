@@ -1,0 +1,20 @@
+.right-part button{
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.box{
+  padding: 0 50px;
+  padding-bottom: 20px;
+}
+
+.greet .up{
+  font-size: 24px;
+  line-height: 1;
+}
+
+.greet .down{
+  font-size: 30px;
+}

@@ -6,11 +6,12 @@ export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
   const [userData, setUserData] = useState(null);
+  const [times, setTimes] = useState(0);
 
   useEffect(() => {
-    const { employees, admin } = getLocalStorage();
-    if (employees === null || admin === null) {
+    if (times === 0) {
       setLocalStorage();
+      setTimes(1);
     } else {
       const { employees, admin } = getLocalStorage();
       setUserData({ employees, admin });

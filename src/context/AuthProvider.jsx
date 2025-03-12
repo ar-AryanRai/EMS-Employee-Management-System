@@ -16,7 +16,7 @@ const AuthProvider = ({ children }) => {
       const { employees, admin } = getLocalStorage();
       setUserData({ employees, admin });
     }
-  }, []);
+  }, [times]);
 
   return (
     <AuthContext.Provider value={userData}>{children}</AuthContext.Provider>

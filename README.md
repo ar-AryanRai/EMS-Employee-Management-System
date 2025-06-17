@@ -37,10 +37,14 @@ This project provides a dynamic platform to manage employee profiles, assign tas
 ├── public/ <br />
 ├── src/ <br />
 │ ├── components/ # Reusable UI components <br />
+│ ├── assets # All the additionals like images <br />
 │ ├── context/ # Context API setup <br />
+│ ├── dashboard # dashboard pages <br/>
 │ ├── pages/ # Routing pages like Home, AddTask, etc. <br />
+│ ├── style # Make UI components more attractive <br/>
+│ ├── util # It stores the base or starting data for the web application <br/>
 │ ├── App.jsx # Main app routing and layout <br />
-│ └── index.js # ReactDOM entry point <br />
+└── index.js # ReactDOM entry point <br />
 
 ---
 

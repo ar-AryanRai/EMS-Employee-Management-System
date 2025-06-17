@@ -34,13 +34,13 @@ This project provides a dynamic platform to manage employee profiles, assign tas
 
 ## 📁 Folder Structure
 
-├── public/
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── context/ # Context API setup
-│ ├── pages/ # Routing pages like Home, AddTask, etc.
-│ ├── App.jsx # Main app routing and layout
-│ └── index.js # ReactDOM entry point
+├── public/ <br />
+├── src/ <br />
+│ ├── components/ # Reusable UI components <br />
+│ ├── context/ # Context API setup <br />
+│ ├── pages/ # Routing pages like Home, AddTask, etc. <br />
+│ ├── App.jsx # Main app routing and layout <br />
+│ └── index.js # ReactDOM entry point <br />
 
 ---
 

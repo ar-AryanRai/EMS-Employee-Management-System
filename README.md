@@ -2,7 +2,7 @@
 
 **StaffSync** is a modern Employee Management System built using **React**, designed to help manage employee details, tasks, and status seamlessly in a clean, interactive interface.
 
-🔗 **Live Site**: [staffsync-ems.netlify.app](https://staffsync-ems.netlify.app/)
+🔗 **Live Site**: [Click here to visit staffsync](https://staffsync-ems.netlify.app/)
 
 ---
 
